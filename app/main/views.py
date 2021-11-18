@@ -18,3 +18,5 @@ def index():
     title = 'Home - Welcome to The best Movie Review Website Online'
     return render_template('index.html', title = title,popular=popular_source)
     
+@main.route('/articles/<source_id>')
+def articles(source_id):
