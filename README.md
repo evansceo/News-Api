@@ -5,7 +5,7 @@ Evans Oduor Onyiego
 
 ## Description
 
-A web application where users can view the latest news from different sources. It uses the News API to fetch the news and display it on the web page. A user can also view various articles from the diffrent sources.
+A python web application designed to consume the News API database and present it on a user-friendly interface. The application was built on Python3.6
 
 ## Setup Requirements
 
