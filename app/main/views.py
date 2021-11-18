@@ -20,3 +20,13 @@ def index():
     
 @main.route('/articles/<source_id>')
 def articles(source_id):
+    '''
+    View articles page => function that returns the articles page from a source id 
+    '''
+    # Getting articles based on the source id
+    articles = get_articles(source_id)
+    print(articles)
+    title = f'{source_id}'
+
+    return render_template('articles.html', title=title, article=articles)
+    
